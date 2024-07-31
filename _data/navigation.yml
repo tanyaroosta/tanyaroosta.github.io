@@ -7,7 +7,7 @@ main:
     url: /talks/    
 
   - title: "Teaching"
-    url: /teaching/    
+    url: https://www.ischool.berkeley.edu/people/tanya-roosta    
     
   - title: "Portfolio"
     url: /portfolio/
@@ -18,5 +18,3 @@ main:
   - title: "CV"
     url: /files/Roosta_Resume.pdf
     
-  - title: "Guide"
-    url: /markdown/
