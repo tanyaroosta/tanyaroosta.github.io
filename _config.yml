@@ -12,7 +12,7 @@ title                    : "Home"
 title_separator          : "-"
 name                     : &name "Dr Tanya Roosta"
 description              : &description "Senior Applied Science Manager, Amazon"
-url                      : https://tanyaroosta/tanyaroosta.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://tanyaroosta.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "tanyaroosta/tanyaroosta.github.io"
 
