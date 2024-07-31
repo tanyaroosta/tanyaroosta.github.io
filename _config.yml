@@ -8,11 +8,11 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Tanya Roosta's Personal Site"
+title                    : "Home"
 title_separator          : "-"
-name                     : &name "Tanya Roosta"
-description              : &description "personal description"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "Dr Tanya Roosta"
+description              : &description "Senior Applied Science Manager, Amazon"
+url                      : https://tanyaroosta/tanyaroosta.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "tanyaroosta/tanyaroosta.github.io"
 
@@ -22,21 +22,21 @@ repository               : "tanyaroosta/tanyaroosta.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
-  pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  name             : "Tanya Roosta"
+  pronouns         : "she/her"  
+  bio              : "Senior Applied Science Manager"
+  location         : "CA., USA"
+  employer         : "Amazon"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "tanya.roosta@gmail.com" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?hl=en&user=KwjvGLUAAAAJ"
   impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : "http://orcid.org/0009-0003-1235-3006"
   semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : 
   researchgate     : # URL
 
   # Repositories and software development
