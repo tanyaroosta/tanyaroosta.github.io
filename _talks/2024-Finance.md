@@ -1,0 +1,12 @@
+---
+title: "Artificial Intelligence"
+collection: talks
+type: "Keynote"
+venue: "Berkeley-AMENA / Silicon Valley Business Forum (SVBF) Conference"
+date:  202-07-06
+location: "Berkeley, CA"
+---
+
+
+
+<a href="https://github.com/tanyaroosta/tanyaroosta.github.io/blob/master/_talks/Berkeley_keynote_2022.pdf">Slides</a>
