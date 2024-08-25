@@ -1,12 +1,12 @@
 ---
-title: "Artificial Intelligence"
-collection: talks
-type: "Keynote"
-venue: "Berkeley-AMENA / Silicon Valley Business Forum (SVBF) Conference"
-date:  202-07-06
-location: "Berkeley, CA"
+title: "How Apple Intelligence Changes Product Experiences"
+collection: LinkedIn Live Event
+type: "Panelist"
+venue: "LinkedIn"
+date:  2024-06-06
+location: "San Jose, CA"
 ---
 
 
 
-<a href="https://github.com/tanyaroosta/tanyaroosta.github.io/blob/master/_talks/Berkeley_keynote_2022.pdf">Slides</a>
+<a href="https://www.linkedin.com/events/7214292073930182656/about/?originTrackingId=eC7WWK61Q0%2BXGlgxaZIc2g%3D%3D">Slides</a>
