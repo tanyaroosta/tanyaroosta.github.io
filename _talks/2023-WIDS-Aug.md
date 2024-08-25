@@ -1,12 +1,12 @@
 ---
-title: "Artificial Intelligence"
+title: "Large Language Model Craze"
 collection: talks
 type: "Keynote"
-venue: "Berkeley-AMENA / Silicon Valley Business Forum (SVBF) Conference"
-date:  202-07-06
+venue: "Women in Data Science Conference"
+date:  2023-04-06
 location: "Berkeley, CA"
 ---
 
 
 
-<a href="https://github.com/tanyaroosta/tanyaroosta.github.io/blob/master/_talks/Berkeley_keynote_2022.pdf">Slides</a>
+<a href="https://github.com/tanyaroosta/tanyaroosta.github.io/blob/master/_talks/Berkeley_WiDS_Aug2023.pdf">Slides</a>
