@@ -1,12 +1,12 @@
 ---
-title: "Artificial Intelligence"
+title: "AI's Evolutionary Impact: Transforming Financial Institutions into Tomorrow's Innovators"
 collection: talks
-type: "Keynote"
-venue: "Berkeley-AMENA / Silicon Valley Business Forum (SVBF) Conference"
-date:  202-07-06
-location: "Berkeley, CA"
+type: "Speaker"
+venue: "AUM International Summit on Artificial Intelligence"
+date:  2024-03-06
+location: "Kuwait"
 ---
 
 
 
-<a href="https://github.com/tanyaroosta/tanyaroosta.github.io/blob/master/_talks/Berkeley_keynote_2022.pdf">Slides</a>
+<a href="https://www.linkedin.com/posts/american-university-of-the-middle-east-aum_aumabrai-activity-7170450657248768000-wGkp?utm_source=share&utm_medium=member_desktop">Link</a>
