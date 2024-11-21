@@ -23,6 +23,8 @@ Quantifying Catastrophic Forgetting in Continual Federated Learning
 SA Christophe Dupuy, Jimit Majmudar, Jixuan Wang, Tanya Roosta, Rahul Gupta 
 2023 IEEE International Conference on Acoustics, Speech and Signal Processing		2023
 
+Data Augmentation and Model Ensembling for Detection of Online Sexism. Feely, W., Gupta, P., Mohanty, M. R., Chon, T., Kundu, T., Singh, V., Atluri, S., Roosta, T., Ghaderi, V., & Schulam.  Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023)
+
 Training Mixed-Domain Translation Models via Federated Learning
 CC Peyman Passban, Tanya Roosta, Rahul Gupta, Ankit Chadha
 North American Chapter of Association for Computational Linguistics (NAACL)		2022
