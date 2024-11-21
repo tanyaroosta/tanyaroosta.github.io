@@ -5,6 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
+ClaimVer: Explainable Claim-Level Verification and Evidence Attribution of Text Through Knowledge Graphs.  EMNLP 2024.
 
 AuditLLM: A Tool for Auditing Large Language Models Using Multiprobe Approach
 CS Maryam Amirizaniani, Tanya Roosta, Aman Chadha
