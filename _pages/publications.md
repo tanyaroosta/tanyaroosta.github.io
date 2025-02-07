@@ -4,6 +4,7 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
+The Order Effect: Investigating Prompt Sensitivity in Closed-Source LLMs. Feb 2025, Arxiv
 
 ClaimVer: Explainable Claim-Level Verification and Evidence Attribution of Text Through Knowledge Graphs.  EMNLP 2024.
 
