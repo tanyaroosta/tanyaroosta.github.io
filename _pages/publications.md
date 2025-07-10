@@ -4,7 +4,9 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
-The Order Effect: Investigating Prompt Sensitivity in Closed-Source LLMs. Feb 2025, Arxiv
+Federated Multimodal Learning with Dual Adapters and Selective Pruning for Communication and Computational Efficiency. CCGrid 2025
+
+The Order Effect: Investigating Prompt Sensitivity in Closed-Source LLMs. KDD 2025.
 
 ClaimVer: Explainable Claim-Level Verification and Evidence Attribution of Text Through Knowledge Graphs.  EMNLP 2024.
 
