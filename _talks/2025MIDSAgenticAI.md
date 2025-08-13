@@ -3,7 +3,7 @@ title: "Agentic AI: From Concept to Frontier"
 collection: talks
 type: "Talk"
 venue: "Berkeley MIDS Immersion"
-date:  2025-07-12
+date:  2025-08-12
 location: "Berkeley, CA"
 ---
 
