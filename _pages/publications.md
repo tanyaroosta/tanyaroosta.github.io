@@ -4,6 +4,20 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
+iAgentBench: Benchmarking Sensemaking Capabilities of Information-Seeking Agents on High-Traffic Topics.  Special Interest Group on Information Retrieval (SIGIR), 2026.
+
+FedReFT: Federated Representation Fine-Tuning with All-But-Me Aggregation. EACL, Mar 24, 2026.
+
+Rudder: Steering Prefetching in Distributed GNN Training using LLM Agents. International Conference on Supercomputing, Mar 23, 2026.
+
+Agentic AI for Information Retrieval.  ACM SIGIR Conference on Human Information Interaction and Retrieval (CHIIR), Mar 22, 2026.
+
+RealWebAssist: A Benchmark for Long-Horizon Web Assistance with Real-World Users.  NeurIPS, Nov 18, 2025.
+
+Developing a framework for auditing large language models using human-in-the-loop. 5SIGIR-AP, Sep 11, 2025.
+
+The Order Effect: Investigating Prompt Sensitivity in Closed-Source LLMs. KDD, Jul 1, 2025.
+
 How Well Do LLMs Represent Values Across Cultures? Empirical Analysis of LLM Responses Based on Hofstede Cultural Dimensions. Agentic & GenAI Evaluation KDD2025.
 
 Federated Multimodal Learning with Dual Adapters and Selective Pruning for Communication and Computational Efficiency. CCGrid 2025
