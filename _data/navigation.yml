@@ -10,11 +10,11 @@ main:
     url: /talks/    
 
   - title: "Teaching"
-    url: /teaching/
+    url: https://www.ischool.berkeley.edu/people/tanya-roosta    
          
   - title: "Blog"
     url: /year-archive/
     
   - title: "CV"
-    url: /cv/
+    /files/Roosta_Resume.pdf
     
