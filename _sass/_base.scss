@@ -13,15 +13,9 @@ body {
   padding-bottom: 9em;
   color: $text-color;
   font-family: $global-font-family;
- body {
-  margin: 0;
-  padding: $masthead-height 0 0;
-  padding-bottom: 9em;
-  color: $text-color;
-  font-family: $global-font-family;
-  line-height: 1.7;  /* Changed from 1.5 */
-
+   line-height: 1.5;
   &.overflow--hidden {
+       /* when primary navigation is visible, the content in the background won't scroll */
     overflow: hidden;
   }
 }
@@ -44,9 +38,9 @@ h2 {
 
 h3 {
   font-size: $type-size-5;
-p {
-  margin-bottom: 1.6em;  /* Changed from 1.3em */
+
 }
+h4 {
   font-size: $type-size-6;
 }
 
@@ -68,23 +62,15 @@ p {
 
 u,
 ins {
- p > code,
-a > code,
-li > code,
-figcaption > code,
-td > code {
-  padding-top: 0.2rem;
-  padding-bottom: 0.2rem;
-  font-size: $type-size-6;
-  background: #f8f9fa;  /* Updated from $code-background-color */
-  border: 1px solid #e0e7ff;
-  border-radius: 6px;
-  box-shadow: none;
-
-  &:before, &:after {
-    letter-spacing: -0.2em;
-    content: "\00a0";
+text-decoration: none;
+  border-bottom: 1px solid $text-color;
+  a {
+    color: inherit;
   }
+}
+
+del a {
+  color: inherit;
 }
 
 p, pre, blockquote, ul, ol, dl, figure, table, fieldset {
