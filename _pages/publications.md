@@ -30,7 +30,7 @@ NeurIPS, Nov 18, 2025
 **The Order Effect: Investigating Prompt Sensitivity in Closed-Source LLMs**
 KDD, Jul 1, 2025
 
-**How Well Do LLMs Represent Values Across Cultures? Empirical Analysis of LLM Responses Based on Hofstede Cultural Dimensions**  
+**How Well Do LLMs Represent Values Across Cultures? Empirical Analysis of LLM Responses Based on Hofstede Cultural Dimensions** 
 Agentic & GenAI Evaluation, KDD 2025
 
 **Federated Multimodal Learning with Dual Adapters and Selective Pruning for Communication and Computational Efficiency**  
