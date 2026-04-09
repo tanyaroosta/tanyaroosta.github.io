@@ -1,14 +1,18 @@
 /* ==========================================================================
    MASTHEAD
    ========================================================================== */
+/* ==========================================================================
+   MASTHEAD
+   ========================================================================== */
 
 .masthead {
   position: fixed;
-  background: white;
-  border-bottom: 1px solid $border-color;
+  background: linear-gradient(135deg, #2563eb 0%, #1e40af 100%);
+  border-bottom: 3px solid #1e40af;
   height: $masthead-height;
   top: 0;
   width: 100%;
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.15);
 
   -webkit-animation: intro 0.3s both;
           animation: intro 0.3s both;
@@ -19,7 +23,7 @@
   &__inner-wrap {
     @include container;
     @include clearfix;
-    padding: 1em 1em 1em;
+    padding: 1.2em 1em;
     font-family: $sans-serif-narrow;
 
     @include breakpoint($x-large) {
@@ -32,6 +36,9 @@
 
     a {
       text-decoration: none;
+      color: #fff;
+      font-weight: 500;
+      transition: $global-transition;
     }
   }
 }
@@ -50,9 +57,20 @@
   display: block;
   list-style-type: none;
   white-space: nowrap;
+  padding: 0.5em 1em;
+  margin: 0;
 
   &--lg {
-    padding-right: 3em;
+    padding-right: 2em;
     font-weight: 700;
+    font-size: 1.2em;
+    color: #fff;
+  }
+
+  a {
+    &:hover {
+      color: #e0e7ff;
+      text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
   }
 }
