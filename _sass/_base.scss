@@ -44,9 +44,9 @@ h2 {
 
 h3 {
   font-size: $type-size-5;
+p {
+  margin-bottom: 1.6em;  /* Changed from 1.3em */
 }
-
-h4 {
   font-size: $type-size-6;
 }
 
@@ -68,18 +68,24 @@ p {
 
 u,
 ins {
-  text-decoration: none;
-  border-bottom: 1px solid $text-color;
-  a {
-    color: inherit;
+ p > code,
+a > code,
+li > code,
+figcaption > code,
+td > code {
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  font-size: $type-size-6;
+  background: #f8f9fa;  /* Updated from $code-background-color */
+  border: 1px solid #e0e7ff;
+  border-radius: 6px;
+  box-shadow: none;
+
+  &:before, &:after {
+    letter-spacing: -0.2em;
+    content: "\00a0";
   }
 }
-
-del a {
-  color: inherit;
-}
-
-/* reduce orphans and widows when printing */
 
 p, pre, blockquote, ul, ol, dl, figure, table, fieldset {
   orphans: 3;
