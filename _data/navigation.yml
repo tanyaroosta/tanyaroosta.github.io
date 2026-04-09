@@ -1,5 +1,8 @@
-# main links links
+# main links
 main:
+  - title: "About"
+    url: /
+    
   - title: "Publications"
     url: /publications/
 
@@ -7,11 +10,11 @@ main:
     url: /talks/    
 
   - title: "Teaching"
-    url: https://www.ischool.berkeley.edu/people/tanya-roosta    
-        
-  - title: "Blog Posts"
+    url: /teaching/
+         
+  - title: "Blog"
     url: /year-archive/
     
   - title: "CV"
-    url: /files/Roosta_Resume.pdf
+    url: /cv/
     
