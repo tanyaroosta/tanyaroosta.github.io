@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Home"
+title                    : "Tanya Roosta"
 title_separator          : "-"
 name                     : &name "Dr Tanya Roosta"
 description              : &description "Director of AI, AMD"
