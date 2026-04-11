@@ -1,41 +1,292 @@
+```scss
 ---
 ---
 
-/*
- *    Minimal Mistakes Jekyll Theme
- *
- *  - Michael Rose
- *  - mademistakes.com
- *  - https://twitter.com/mmistakes
- *
-*/
+@import "minimal-mistakes";
 
-@import "vendor/breakpoint/breakpoint"; // media query mixins
-@import "variables";
-@import "mixins";
-@import "vendor/susy/susy";
+/* ============================================================
+   CUSTOM VISUAL OVERRIDES — Tanya Roosta
+   ============================================================ */
 
-@import "reset";
-@import "base";
+/* ---------- Color palette ---------- */
+$navy:    #0a2540;
+$teal:    #0d9488;
+$teal-light: #ccfbf1;
+$slate:   #475569;
+$warm-gray: #f8f6f3;
+$accent:  #0891b2;
 
-@import "utilities";
-@import "animations";
-@import "tables";
-@import "buttons";
-@import "notices";
-@import "masthead";
-@import "navigation";
-@import "footer";
-@import "syntax";
+/* ---------- Typography ---------- */
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: #1e293b;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #ffffff;
+}
 
-@import "forms";
+h1, h2, h3, h4, h5, h6,
+.archive__item-title,
+.page__title {
+  font-family: 'DM Serif Display', Georgia, serif;
+  color: $navy;
+  letter-spacing: -0.01em;
+}
 
-@import "page";
-@import "archive";
-@import "sidebar";
+h1, .page__title {
+  font-size: 2.2em;
+  line-height: 1.2;
+}
 
-@import "vendor/font-awesome/fontawesome";
-@import "vendor/font-awesome/solid";
-@import "vendor/font-awesome/brands";
-@import "vendor/magnific-popup/magnific-popup";
-@import "print";
+h2 {
+  font-size: 1.6em;
+  margin-top: 2em;
+  padding-bottom: 0.3em;
+  border-bottom: 2px solid $teal-light;
+}
+
+p, li {
+  line-height: 1.75;
+  color: $slate;
+}
+
+a {
+  color: $teal;
+  text-decoration: none;
+  transition: color 0.2s ease;
+
+  &:hover {
+    color: darken($teal, 12%);
+  }
+}
+
+/* ---------- Responsive font sizing ---------- */
+html {
+  font-size: 15px;
+
+  @include breakpoint($medium) {
+    font-size: 16px;
+  }
+
+  @include breakpoint($large) {
+    font-size: 17px;
+  }
+
+  @include breakpoint($x-large) {
+    font-size: 18px;
+  }
+}
+
+/* ---------- Author sidebar ---------- */
+.sidebar {
+  background: linear-gradient(180deg, #fafafa 0%, #ffffff 100%);
+}
+
+.author__avatar {
+  img {
+    max-width: 140px;
+    border-radius: 50%;
+    border: 3px solid $teal-light;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    &:hover {
+      transform: scale(1.03);
+      box-shadow: 0 6px 24px rgba(0, 0, 0, 0.12);
+    }
+  }
+}
+
+.author__name {
+  font-family: 'DM Serif Display', Georgia, serif;
+  font-size: 1.25em;
+  color: $navy;
+  margin-top: 0.5em;
+}
+
+.author__bio {
+  font-size: 0.9em;
+  color: $slate;
+  line-height: 1.6;
+  font-weight: 400;
+}
+
+.author__urls-wrapper {
+  a {
+    color: $slate;
+    font-size: 0.88em;
+    transition: color 0.2s ease;
+
+    &:hover {
+      color: $teal;
+    }
+  }
+}
+
+/* ---------- Masthead / navigation bar ---------- */
+.masthead {
+  border-bottom: 2px solid $teal-light;
+  background: #ffffff;
+
+  .greedy-nav {
+    background: #ffffff;
+
+    a {
+      font-family: 'Inter', sans-serif;
+      font-weight: 600;
+      font-size: 0.85em;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      color: $navy;
+      padding: 0.5em 0.75em;
+      transition: color 0.2s ease;
+
+      &:hover {
+        color: $teal;
+      }
+
+      &.site-title {
+        font-family: 'DM Serif Display', Georgia, serif;
+        font-size: 1.1em;
+        text-transform: none;
+        letter-spacing: 0;
+      }
+    }
+  }
+}
+
+/* ---------- Page content area ---------- */
+.page__content {
+  p, li, dl {
+    font-size: 0.95em;
+    line-height: 1.8;
+  }
+}
+
+/* ---------- Publication / talk list items ---------- */
+.archive__item {
+  margin-bottom: 1.5em;
+  padding-bottom: 1.5em;
+  border-bottom: 1px solid #f1f5f9;
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.archive__item-title {
+  font-size: 1.15em;
+  margin-bottom: 0.25em;
+
+  a {
+    color: $navy;
+
+    &:hover {
+      color: $teal;
+    }
+  }
+}
+
+.archive__item-excerpt {
+  font-size: 0.88em;
+  color: $slate;
+  line-height: 1.6;
+}
+
+/* ---------- Year headings on publications page ---------- */
+.page__content h2#section-title,
+.taxonomy__section .archive__subtitle {
+  font-family: 'DM Serif Display', Georgia, serif;
+  color: $teal;
+  font-size: 1.4em;
+}
+
+/* ---------- Buttons and links ---------- */
+.btn,
+.btn--primary {
+  background-color: $teal;
+  border: none;
+  border-radius: 6px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 0.85em;
+  letter-spacing: 0.02em;
+  padding: 0.6em 1.4em;
+  transition: background-color 0.2s ease, transform 0.15s ease;
+
+  &:hover {
+    background-color: darken($teal, 8%);
+    transform: translateY(-1px);
+  }
+}
+
+/* ---------- Footer ---------- */
+.page__footer {
+  background: $navy;
+  color: rgba(255, 255, 255, 0.7);
+
+  a {
+    color: rgba(255, 255, 255, 0.85);
+
+    &:hover {
+      color: #ffffff;
+    }
+  }
+
+  footer {
+    font-size: 0.85em;
+  }
+}
+
+/* ---------- Subtle page background texture ---------- */
+#main {
+  background: linear-gradient(180deg, $warm-gray 0%, #ffffff 300px);
+}
+
+/* ---------- Smooth transitions globally ---------- */
+* {
+  transition-property: color, background-color, border-color, box-shadow;
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
+}
+
+/* Undo transitions on layout elements to avoid jank */
+.masthead,
+.sidebar,
+.page,
+.page__content,
+#main {
+  transition: none;
+}
+
+/* ---------- Selection highlight ---------- */
+::selection {
+  background: $teal-light;
+  color: $navy;
+}
+
+/* ---------- Blockquotes ---------- */
+blockquote {
+  border-left: 3px solid $teal;
+  padding-left: 1.2em;
+  color: $slate;
+  font-style: italic;
+  margin: 1.5em 0;
+}
+
+/* ---------- Code blocks ---------- */
+code {
+  font-size: 0.88em;
+  background: #f1f5f9;
+  padding: 0.15em 0.4em;
+  border-radius: 4px;
+}
+
+pre {
+  background: $navy;
+  color: #e2e8f0;
+  border-radius: 8px;
+  padding: 1.2em;
+  overflow-x: auto;
+}
+```
